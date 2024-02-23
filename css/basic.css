@@ -1,0 +1,34 @@
+    /* 전체 선택자, 페이지에 있는 모든 요소에 대해 스타일 적용 
+    *(별)로 표시하는 것은 적용이 잘안될수 있어서, 하나하나 다 써준다.
+    */
+    html,body,head,div,span,p,header,nav,section,article,aside,footer,
+    h1, h2, h3, h4, h5, h6, hr, ol,ul,li, a,img,iframe,
+    table,thead,tbody,tfoot,tr, th, td,form,input,label,button,select,textarea,br
+    
+    {
+        margin: 0px;
+        padding: 0px;
+        /* font-size: 100%; */
+    }
+    body{
+        width: 960px; /* 크기는 12로 나누어 떨어지는 값을 주는 것이 좋습니다. */
+        margin:  0px auto ; /* 위아래(0px), 왼쪽과 오른쪽은(가운데정렬)*/
+    }
+    
+   ol, ul, li{
+        list-style:  none; /* 목록의 기호 */
+
+    }
+
+    a,  a:visited {    /* 방문전 사이트색 ,방문후 사이트색  (코드가같아서 하나로모아줌) */
+        text-decoration: none; ; /* 밑줄제거 */
+        color: black;
+    }
+ 
+    img{
+        border:none;
+    }
+    table {
+        border-collapse: collapse;
+        border-spacing: 0;
+    }
